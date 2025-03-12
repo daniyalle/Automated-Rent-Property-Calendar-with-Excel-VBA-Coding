@@ -14,13 +14,9 @@ Sheets: Requires a sheet named "2025" with predefined ranges for clearing/format
 Dependencies:
 Columns Z (name), AE (start cell), AH (end cell) must be populated.
 Boundary ranges are hardcoded (e.g., Q3:Q6, R8:R11).
-Limitations:
-Processes only rows 1–50.
-No error handling for invalid cell addresses (e.g., non-existent ranges in AE/AH).
-Colors are randomly generated but may lack contrast.
 4. Usage
 Populate columns Z, AE, AH with valid data.
 Modify cells in columns S, T, U, or V to trigger updates.
 Calendar ranges are auto-cleared and repopulated.
-Conclusion
+5. Conclusion
 This project efficiently automates calendar population with minimal user intervention, leveraging VBA for dynamic data handling and visual organization. Enhancements could improve robustness and usability.
